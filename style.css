@@ -18,11 +18,11 @@
     padding: 0px;
   }
 
-  #project_section img {
+  .project_card img {
     height: 200px;
     border-radius: 50%;
   }
 
   #project_section {
-    background-color: rgb(159, 202, 203);
+    background-color: rgb(212, 218, 218);
   }
