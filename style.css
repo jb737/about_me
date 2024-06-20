@@ -30,10 +30,24 @@
   #project_section {
     background-color: var(--light-grey-blue);
     display: flex;
+    flex-direction: column;
   }
 
   #project_section h2 {
     text-align: center;
     border: 0px;
     padding: 10px;
+  }
+
+  #project_section ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .project_card {
+    margin: 10px;
   }
