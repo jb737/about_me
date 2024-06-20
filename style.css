@@ -29,4 +29,11 @@
 
   #project_section {
     background-color: var(--light-grey-blue);
+    display: flex;
+  }
+
+  #project_section h2 {
+    text-align: center;
+    border: 0px;
+    padding: 10px;
   }
