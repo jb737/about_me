@@ -59,11 +59,43 @@
   .project_card:hover {
     background-color: rgb(202, 208, 213);
     border:1px solid darkgrey;
-    border-radius: 10%;
+    border-radius: 1%;
     transform:scale(1.05);
   } 
 
   #contact_image img {
     border-radius: 30%;
     height: 200px;
+  }
+
+  #skills_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #skills_section th, td {
+    padding: 10px;
+   text-align: center;
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+
+  #skills_section table {
+    padding: 10px;
+    border: 1px solid;
+  }
+
+  #button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer {
+    margin: 10px;
+    text-align: center;
+  }
+
+  #social_media_links {
   }
