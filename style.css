@@ -102,8 +102,13 @@
 }*/
 .social_media_links a img {
   height:20px;
+  margin: 7px;
 }
 
 .social_media_links a img:hover {
   transform: scale(1.5);
+}
+
+footer p {
+  font-size: 14px;
 }
