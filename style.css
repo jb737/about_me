@@ -16,10 +16,11 @@
     padding: 10px;
   }
 
-  body {
+ * body {
     background-color: whitesmoke;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
   }
 
   .project_card img {
@@ -95,6 +96,7 @@
   footer {
     margin: 10px;
     text-align: center;
+    max-height: 100px;
   }
 
 /*footer img {
