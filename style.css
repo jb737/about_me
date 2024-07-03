@@ -79,6 +79,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
   }
 
   .project_card:hover {
@@ -142,14 +143,14 @@
 
 #modal {
   position:absolute;
+  background-color: rgb(159, 173, 188, 0.5);
   padding: 0px;
   margin: 0px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   width: 100vw;
   height: 260%;
-  background-color: rgb(159, 173, 188, 0.5);
+  transform: translate(-50%, -50%);
   overflow: hidden;
   z-index: 2;
 }
@@ -157,13 +158,13 @@
 #modal_card {
   position: relative;
   background-color: azure;
+  padding:20px;
+  margin: 0 auto;
   align-items: center;
   top:40%;
   width:  80%;
   height: 50%;
-  margin: 0 auto;
   border-radius: 10px;
-  padding:20px;
   overflow: auto;
   z-index: 5;
 }
