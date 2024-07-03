@@ -9,19 +9,42 @@
     font-style: normal;
   }
 
- * header {
+ header {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    height:20%;
   }
 
 
- * body {
+ body {
     background-color: whitesmoke;
     margin: 0px;
     padding: 0px;
+    height: 60%;
     overflow-x: hidden;
+  }
+
+  footer {
+    margin-top: 50px;
+    text-align: center;
+    height: 20%;
+  }
+
+  header p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+
+  .section_title{
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
   }
 
   .project_card img {
@@ -65,6 +88,11 @@
     transform:scale(1.05);
   } 
 
+  .project_card p {
+    text-align:justify;
+    font-size: 12px;
+  }
+
   #contact_image img {
     border-radius: 10%;
     height: 397px;
@@ -88,17 +116,13 @@
     border: 1px solid;
   }
 
-  #button {
+ /* #button {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+  }*/
 
-  footer {
-    margin: 10px;
-    text-align: center;
-    max-height: 100px;
-  }
+ 
 
 /*footer img {
   height: 20px;
@@ -112,6 +136,70 @@
   transform: scale(1.5);
 }
 
-footer p {
-  font-size: 14px;
+.hide {
+  display: none;
+}
+
+#modal {
+  position:absolute;
+  padding: 0px;
+  margin: 0px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 260%;
+  background-color: rgb(159, 173, 188, 0.5);
+  overflow: hidden;
+  z-index: 2;
+}
+
+#modal_card {
+  position: relative;
+  background-color: azure;
+  align-items: center;
+  top:40%;
+  width:  80%;
+  height: 50%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding:20px;
+  overflow: auto;
+  z-index: 5;
+}
+
+#modal_contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#modal_card img {
+  height: 600px;
+  width: 80%;
+  padding: 10px;
+  align-items: center;
+}
+
+#close_modal {
+  cursor: pointer;
+  font-size:30px ;
+}
+
+#close_modal:hover {
+  color: red;
+  border: 1px solid black;
+}
+
+
+@media  and (min-width: 768px) {
+  .project_card p {
+    font-size:16px;
+  }
+}
+
+@media  and (max-width=1100px) {
+  #skills_section table th, td {
+    padding:2px;
+  }
 }
