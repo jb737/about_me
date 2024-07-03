@@ -1,9 +1,6 @@
-function uniqueClickFunction() {
-    var elementName = document.getElementById("longWinded");
+const modal = document.getElementById("modal");
+const closeModalButton = document.getElementById("close_modal");
 
-    if (elementName.style.fontStyle != "italic") {
-        elementName.style.fontStyle = "italic";}
-    else {
-        elementName.style.fontStyle = "normal";
-    }
-}
+closeModalButton.addEventListener("click",function() {
+    modal.classList.add("hide");
+})
