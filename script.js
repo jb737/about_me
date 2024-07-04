@@ -18,9 +18,9 @@ const projectsContainer = document.getElementById("projects");
 //remember this does not run the function, it only gets executed if the event is 'heard'.
 //querySelectAll brings back everything that has the argument attatched to it
 const project1 = {
-    title: "Project 1",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aliquam quidem ipsam dicta ex facere earum eius, aliquid quisquam minima laudantium possimus error dolorem inventore at fugiat, obcaecati eaque distinctio.",
-    imageSrc: "https://images.unsplash.com/photo-1715157163163-49fedb9f398b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+    title: "The Cattleman's Notebook",
+    description: "This is my first project. It was made possible with the support of comIT.",
+    imageSrc: "https://images.unsplash.com/reserve/tv3te4tNQsugPmYU4Aj7_KS_CattleFence.jpg?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
 };
 //all project cards have the same types of contents. Use an object to hold these cards.
 const project2 = {
