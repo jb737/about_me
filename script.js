@@ -1,7 +1,7 @@
 const modal = document.getElementById("modal");
 const closeModalButton = document.getElementById("close_modal");
 const projectsContainer = document.getElementById("projects");
-//const projectCards = document.querySelectorAll(".project_card");
+const projectCards = document.querySelectorAll(".project_card");
 
 
 //closeModalButton.addEventListener("click",function() {
@@ -24,9 +24,9 @@ const project1 = {
 };
 //all project cards have the same types of contents. Use an object to hold these cards.
 const project2 = {
-    title: "Project 2",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate beatae, nisi quis mollitia quos optio asperiores provident est dicta nihil placeat dolorem ab exercitationem adipisci, accusantium ipsa neque obcaecati iure!",
-    imageSrc: "https://images.unsplash.com/photo-1715145036637-ffa5d164e195?q=80&w=1895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+    title: "my education",
+    description: "This is my journey, my path. It hasn't always been easy, but it has always been fun! ",
+    imageSrc: "https://images.unsplash.com/photo-1503727824955-2a5122ce8057?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
 };
 
 const project3 = {

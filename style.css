@@ -49,6 +49,7 @@
 
   .project_card img {
     height: 200px;
+    width: 150px;
     border-radius: 50%;
   }
 
@@ -71,7 +72,13 @@
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+    
   }
+
+  #project_section ul li {
+    flex: 1; /* Ensures equal growth */
+    padding: 10px; /* Gives items some breathing room */
+}
 
   .project_card {
     margin: 10px;
@@ -193,14 +200,19 @@
 }
 
 
-@media  and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .project_card p {
     font-size:16px;
   }
 }
 
-@media  and (max-width=1100px) {
+@media screen and (max-width=1100px) {
   #skills_section table th, td {
     padding:2px;
   }
 }
+  @media screen and (max-width: 768px) {
+    #project_section ul {
+      flex-direction: column;
+    }
+  }
